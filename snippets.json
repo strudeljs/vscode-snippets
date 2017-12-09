@@ -1,0 +1,30 @@
+{
+    "Strudel Component": {
+      "prefix": "s-component",
+      "description": "Strudel component",
+      "body": [
+        "import { Component, El, Evt } from 'strudel';",
+        "",
+        "@Component('${1:selector-name}')",
+        "class ${2:Name}",
+        "\tinit() { }$0",
+        "}"
+      ]
+    },
+    "Strudel Event": {
+      "prefix": "s-evt",
+      "description": "Strudel event binding",
+      "body": [
+        "@Evt('${1:event-descriptor}')",
+        "${2:name}() { }$0"
+      ]
+    },
+    "Strudel Element": {
+      "prefix": "s-el",
+      "description": "Strudel element binding",
+      "body": [
+        "@El('${1:selector-name}')",
+        "${2:name}$0"
+      ]
+    },
+}
