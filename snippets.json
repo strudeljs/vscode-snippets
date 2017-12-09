@@ -6,8 +6,10 @@
         "import { Component, El, Evt } from 'strudel';",
         "",
         "@Component('${1:selector-name}')",
-        "class ${2:Name}",
-        "\tinit() { }$0",
+        "class ${2:Name} {",
+        "\tinit() {",
+        "\t\t$0",
+        "\t}",
         "}"
       ]
     },
@@ -16,7 +18,10 @@
       "description": "Strudel event binding",
       "body": [
         "@Evt('${1:event-descriptor}')",
-        "${2:name}() { }$0"
+        "${2:name}() {",
+        "\t$0",
+        "}",
+        ""
       ]
     },
     "Strudel Element": {
@@ -24,7 +29,8 @@
       "description": "Strudel element binding",
       "body": [
         "@El('${1:selector-name}')",
-        "${2:name}$0"
+        "${2:name};",
+        "$0"
       ]
-    },
+    }
 }

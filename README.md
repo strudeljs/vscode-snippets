@@ -1,4 +1,4 @@
-# Strudel Snippet sfor VS Code
+# Strudel Snippets for VS Code
 
 This extension for Visual Studio Code adds snippets for Strudel.
 

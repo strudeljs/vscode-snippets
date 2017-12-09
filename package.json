@@ -17,7 +17,7 @@
         "Strudel",
         "Snippets"
     ],
-    "version": "0.7.0",
+    "version": "0.7.4",
     "engines": {
         "vscode": "^1.17.0"
     },
