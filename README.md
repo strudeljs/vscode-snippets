@@ -1,5 +1,7 @@
 # Strudel Snippets for VS Code
 
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/ritwickdey.LiveServer.svg)](https://marketplace.visualstudio.com/items?itemName=mateuszluczak.Strudel)
+
 This extension for Visual Studio Code adds snippets for Strudel.
 
 ## Usage 
